@@ -93,6 +93,26 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.xr.arkit": {
+      "version": "2.1.9",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.arsubsystems": "2.1.2",
+        "com.unity.xr.management": "3.0.6"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.arkit-face-tracking": {
+      "version": "1.0.7",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.arkit": "2.1.9",
+        "com.unity.xr.arsubsystems": "2.1.2"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.xr.arsubsystems": {
       "version": "2.1.2",
       "depth": 1,
